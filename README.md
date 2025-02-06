@@ -190,17 +190,17 @@ modifier le fichier de conf
 
 ```bash
 [kogaye@web ~]$ echo $RANDOM
-12440
+11452
 
 
 [kogaye@web ~]$ sudo cat /etc/ssh/sshd_config | grep Port
-Port 12440
+Port 11452
 ```
 
 
 ```bash
-[kogaye@web ~]$ sudo firewall-cmd --list-all | grep 12440
-  ports: 12440/tcp
+[kogaye@web ~]$ sudo firewall-cmd --list-all | grep 11452
+  ports: 11452/tcp
 ```
 
 
@@ -211,7 +211,7 @@ redémarrer le service
 
 connection au port spécifique
 ```bash
-PS C:\Users\kogaye> ssh kogaye@10.1.1.1 -p 12440
+PS C:\Users\kogaye> ssh kogaye@10.1.1.1 -p 11452
 kogaye@10.1.1.1's password:
 Last login: Sat Dec 21 23:10:25 2024 from 10.1.1.3
 [kogaye@web ~]$
